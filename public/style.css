@@ -1,0 +1,227 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-weight 400 y 700
+color 
+blanco aliceblue;
+negro   rgb(15, 15, 15);
+blanco tipograf antiquewhite;
+negro tipograf #333;
+
+header
+*/
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.espacios{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.centrado{
+    text-align: center;
+}/*esto es para no andar poniendo propiedades asi todo el tiempo je*/
+#fondo{
+    background: url(img/fondo.jpg) center center fixed;
+    background-size: cover;
+    width: 100%;
+    
+}
+#logo{
+    width: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: antiquewhite;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    padding: 20px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    margin: 20px;
+    color: antiquewhite;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    background: rgb(15, 15, 15);
+    padding: 20px;
+}
+/*section*/
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    color: antiquewhite;
+    padding: 10px;
+    background: rgb(15, 15, 15, 0.8) ; 
+}
+.parrafo1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+    padding: 20px;
+    background: rgb(15, 15, 15, 0.8) ; 
+    text-align: center;
+}
+.parrafo1 a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.callToAct{
+    padding: 16px;
+    background: rgb(15, 15, 15);
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    border: 0px;
+}
+.callToAct:hover{
+    padding: 16px;
+    background: rgb(15, 15, 15);
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    border: 0px;
+}
+/*footer*/
+footer{
+    bottom: 0;
+    background: rgb(15, 15, 15);
+    color: aliceblue; 
+}
+footer div{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+h4{
+    font-size:medium;
+}
+#chancho{
+    text-align: center;
+}
+#chancho a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logoF{
+    height: 25px;
+    margin-left: 20px;
+}
+/*section menú*/
+.card{
+    margin: 20px;
+    background: rgb(15, 15, 15, 0) ;
+    color: antiquewhite;
+    border: 0px;
+}
+.card h3{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.card p {
+    margin-top: 20px;
+}
+.card img{
+    border-radius: 8px;
+}
+.card-body {
+    flex: none;
+    padding: 1rem 1rem;
+}
+#sectionMenu{
+    background: rgb(15, 15, 15, 0.8) ; 
+}
+#sectionMenu ul{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    border-bottom: 1px solid;
+}
+#sectionMenu li{
+    color: antiquewhite;
+}
+/*section contacto*/
+#sectionCont{
+    margin: 20px;
+    background: rgb(15, 15, 15, 0.8) ;
+    color: antiquewhite;
+    border: 0px;
+}
+#sectionCont h2{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/*formulario reserva*/
+.formulario {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+.box-input {
+    border-bottom: 2px solid antiquewhite;
+    position:relative;
+    margin: 30px 0;
+    color: antiquewhite;
+    text-align: center;
+}
+.box-input input {
+    font-size: 16px;
+    color: antiquewhite;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+    text-align: center;
+    
+  }
+#submit:hover{
+    padding: 16px;
+    background: rgb(15, 15, 15);
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    border: 0px;
+    transition: .5s;
+}
+
+/*Nosotros*/
+#nosotros{
+    background: rgb(15, 15, 15, 0.8) ; 
+}
+#nosotros img{
+    
+    border-radius: 8px;
+
+}
+#nosotros h3{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: center;
+}
+i{
+    color: antiquewhite;
+}
+#nosotros p{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 700;
+    color: antiquewhite;
+    text-align: center;
+}

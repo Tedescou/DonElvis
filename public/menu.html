@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sansita+Swashed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Don Elvis Diner🍔 Menú</title>
+    <link rel="icon" href="img/logo.svg">
+  </head>
+  <body>
+    <div id="fondo" class="espacios"><div class="container-fluid navbar-expand-lg">
+      <header class="row">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <a href="index.html"><img id="logo" src="img/logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item espacios"><a href="nosotros.html">Nosotros</a> </li>
+                    <li class="nav-item espacios"><a href="menu.html">Menú</a></li>
+                    <li class="nav-item espacios"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            </div>
+      </header> <!--aca arranca el section-->
+    <div class="container-fluid text-center " id="sectionMenu">
+    <div class="row">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Drink's</h3>
+          <img src="img/drinks.png" class="card-img-top img-fluid" alt="drinks">
+          <p class="card-text">Tenemos todo tipo de bebidas como vinos, aperitivos y cerveza tirada.</p>
+          <a class="btn btn-primary callToAct" onclick="drinks()" id="drinks">Quiero!</a>
+        </div><div class="container-fluid">
+          <div class="row">
+            <div id="listadoDrinks" style="display: none;">
+              <div class="text-center"><ul>Cervezas</ul>
+              <li>Cerveza artesanal $320<strong><br>Happy hour de 12 a 20hs $250</strong></li>
+              <li>Stella Artois Lata 473cc $270</li>
+              <li>Heineken lata 473cc $290</li>
+              <li>Corona Porrón $320</li>
+              <li>Andes Lata varios sabores. 473cc $270</li><br>
+              <strong><ul>Gaseosas, Aguas y Jugos</ul></strong>   
+              <li>Linea Coca Cola 350cc, varios sabores $200</li>    
+              <li>Agua Mineral 500cc con y sin gas $180</li>
+              <li>Agua Saborizada Aquarius 600cc $200</li>
+              <li>Limonada frozzen (jugo de limón y azúcar) $230</li>
+              <li>Limonada frozzen con menta, jengibre y azúcar $280</li>
+              <li>Exprimido de Naranja $300</li><br>
+              <strong><ul>Refrescantes</ul></strong>
+              <li>Gin tonic: gin con gaseosa tónica $750</li>
+              <li>Mojito menta: limón, ron y azúcar $590</li>
+              <li>Caipiroska (varias): vodka, fruta y azúcar $590</li>
+              <li>Caipiroska maracuya: vodka, Maracuya y azúcar $650</li>
+              <li>Caipiriña: cachaza y fruta $590</li>
+              <li>Dulce sol: vodka, arandanos, jugo de lima y sprite $600</li>
+              <li>Margarita: tequila, triple sec $600</li>
+              <li>Strawberry Fields: Almibar de frutilla, Frutilla, lima, vermouth bianco Vodka y Soda $600</li>
+              <li>Bonnie: Durazno, limon, almibar, gin y soda $700</li>
+              <li>Clyde: Vodka, tonica, pomelo y menta. $600</li>
+              <li>Chuck Berry: Ron,blue Curacao,almibar,Jugo de arándano,sprite $600</li><br>
+              <strong><ul>Aperitivos</ul></strong>
+              <li>Fernet con coca cola $480</li>
+              <li>Gancia Batido con limón $420</li>
+              <li>Campari con Jugo de Naranja $450</li>
+              <li>Cuba Libre: Ron y Coca cola $450</li>
+              <li>Aperol spritz: Aperol, Champagne y naranja $690</li>
+              <li>Cynar con pomelo $420</li>
+              <li>Absolut con Speed $800</li>
+              <li>Jägermeister con speed $850</li><br>
+              <strong><ul>Coctelería Clasica</ul></strong>
+              <li>Negroni: gin, cinzano, campari y naranja $700 </li>
+              <li>Martini $650</li> 
+              <li>Manhatan: vermurosso y whiskey $650</li>
+              <li>Cosmopolitan: vodka, triple sec, jugo de arandanos y jugo de lima $700</li><br>
+              <strong><ul>Frozzen</ul></strong>           
+              <li> Daiquiri: Ron y Azucar (consultar sabores) $550</li>
+              <li>Huracan: Ron, Maracuya, Naranja, Limón, Frutilla y azúcar $600</li>
+              <li>Baileys Frozzen: Licor Baileys, vodka y helado de americana $700</li><br>
+              <strong><ul>Vinos</ul></strong>
+              <li> ESCORIHUELA GASCON Cabernet / Malbec $1100</li>
+              <li> FAMILIA GASCON MALBEC $850</li>
+              <li>FAMILIA GASCON CHARDONAY $800</li></div>
+        </div></div></div></div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Entradas y minutas</h3>
+          <img src="img/minutas.png" class="card-img-top img-fluid" alt="minutas">
+          <p class="card-text">Hay papas y milanesas. No dejes de probar la tabla Don Elvis para 2 y 4 personas!</p>
+          <a  class="btn btn-primary callToAct" onclick="entrada()" id="entrada">Quiero!</a>
+        </div>
+            <div class="container-fluid text-center">
+              <div class="row">
+                  <div id="listadoEntrada" style="display: none;">
+                    <strong><ul>Entradas</ul></strong>
+                    <li>RABAS A LA ROMANA $ 1200</li>
+                    <li>PAPAS DON ELVIS: Cheddar, Bacon y verdeo $ 690</li>
+                    <li>NACHOS CON CHEDDAR $ 700</li>
+                    <li>BASTONES DE MOZZARELLA con salsa fileto $ 680</li>
+                    <li>PAPAS FRITAS CLÁSICAS: $ 530</li>
+                    <li>CHICKEN FINGERS: Pollo frito, barbacoa c/fritas $ 750</li>
+                    <li>TABLA DON ELVIS PARA 2:<br>
+                    Alitas de pollo Buffalo Wings con salsa picante, milanesitas al verdeo, papas Don Elvis, salchicha americana con huevo Frito, pollo crispy, muzarellitas y tomates Cherry $ 2100</li>
+                    <li>TABLA DON ELVIS PARA 4: Mismos ingredientes en mayor porción $4200 </li><br>
+                    <strong><ul>Minutas (con guarnición)</ul></strong>
+                    <li>MILANESA NAPOLITANA:Milanesa de ternera con salsa de tomate y muzzarella $850</li>
+                    <li>MILANESA AMERICANA: Milanesa de ternera con Cheddar y Panceta $900</li>
+                    <li>MILANESA A CABALLO: Milanesa de ternera con 2 huevos fritos $850</li>
+                    <li>MILANESA con guarnición $ 750</li>
+                    <li>SUPREMA DE POLLO NAPOLITANA $750</li>
+                    <li>SUPREMA DE POLLO $650</li>
+                  </div>
+              </div>
+            </div>
+        </div>
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h3 class="card-title">Principal</h3>
+              <img src="img/principal.png" class="card-img-top img-fluid" alt="principal">
+              <p class="card-text">Opciones como pastas, Sandwichs y hamburguesas. Tambien vegetarianas.</p>
+              <a class="btn btn-primary callToAct" onclick="principal()" id="principal">Quiero!</a>
+        </div>
+          <div class="container-fluid text-center">
+            <div class="row">
+              <div id="listadoPrincipal" style="display: none;">
+                  <strong><ul>Platos principales</ul></strong>   
+                  <li>BIFE DE CHORIZO MAN: Bife de chorizo grillado a caballo, ensalada criolla y papas fritas $1050</li> 
+                  <li>MOLLEJA DON ELVIS: Mollejas doradas. Crema de hongos. Verdeo. Salsa de soja. Parmmesano acompañado de Papas Noiset $1250</li> 
+                  <li>PECHUGA DE POLLO CON CREMA DE HONGOS: Pechuga de pollo. Crema. Hongos. Acompañada de papas cuña a la provenzal $900</li> 
+                  <li>FRICASE DE POLLO KURATO: Cubos de pollo, Crema de espinaca, Panceta, Champiñones, Parmmesano, Salsa de soja acompañado de Papas Noiset $900</li> 
+                  <li>MOBY DICK: Filet de merluza empanado con guarnición $750</li> <br>
+                  <strong><ul>Pastas al huevo con salsa a elección</ul></strong> 
+                  <li>VERMICELLI $800</li> 
+                  <li>ÑOQUIS DE PAPA $700</li> 
+                  <li>SORRENTINOS ( muzzarella y jamón) $900</li> 
+                  <li>RAVIOLES $800</li> <br>
+                  <strong><ul>SALSAS</ul></strong>
+                  <li>KURATO: (espinaca, panceta, hongos, crema, salsa de soja, parmesano)</li>
+                  <li>PARISSIENE: (pollo, jamón, champignones, crema)</li>
+                  <li>FILETO: tomate, albahaca y ajo</li>
+                  <li>BOLOGNESA: salsa fileto con carne</li>
+                  <li>CREMA ROSA: fileto con crema</li><br>
+                  <strong><ul>Ensaladas</ul></strong>                    
+                  <li>ENSALADA DE LENTEJA: arroz, lentejas, zanahoria, arvejas, Choclo, huevo y tomates cherry $800</li>
+                  <li>CAESAR: Mix de Verdes, pollo grillado, Queso Parmesano, tomate Cherry $700</li><br>
+                  <strong><ul>Opción vegetariana</ul></strong>                   
+                  <li>HAMBURGUESA VEGGIE: Burger de lenteja, rúcula, tomate confitado con pan de remolacha y papas fritas $750</li>
+                  <li>HAMBURGUESA DE CALABAZA: burger de calabaza, humita de choclo cremoso con pan de remolacha con papas fritas $750</li>
+                  <li>WOK CHAUMIEM DE VEGETALES: Vermicellis, morrón, cebolla, berenjena, zanahoria, Zuquini,champiñones, verdeo, salsa de soja $850</li>
+                  <li>MILANESA DE BERENJENA: Milanesa de berenjena con muzarella, tomate, con guarnicion $650</li><br>
+                  <strong><ul>Hamburguesas ( con fritas y pan de queso)</ul></strong>     
+                  <li>DON ELVIS:Carne vacuna, Tomates confitados, Bacon, Cheddar, Rucula $900</li>   
+                  <li>JANIS JOPLIN:Carne Vacuna, Queso Dambo, Jamón, Lechuga, Tomate $850</li>   
+                  <li>DOBLE JANIS JOPLIN: Doble Carne Vacuna, doble Queso Dambo, Jamón, Lechuga, Tomate $990</li>   
+                  <li>BEACH BOYS: Carne vacuna, huevo, cheddar, Bacon $900</li>   
+                  <li>JAMES DEAN: Doble carne vacuna, Doble Provoleta, cebolla caramelizada, morrón $990</li>   
+                  <li>BILL HALEY: Doble carne vacuna, doble cheddar, Bacon $950</li>   
+                  <li>JERRY LEE LEWIS: Triple carne vacuna, triple Cheddar,cebolla caramelizada $1050</li>   <br>
+                  <strong><ul> Sandwich de Pollo(con fritas)</ul></strong>
+                  <li>SPEEDY GONZALES: Pechuga de pollo, guacamole, cheddar, bacon en pan de chiabata $850</li> 
+                  <li>DEAN MARTIN: Pollo,salsa golf, mozzarella Sobre tostado mixto $800</li> <br>
+                  <strong><ul>Sandwich de Lomito(con fritas)</ul></strong>                 
+                  <li>GRACE KELLY: Lomito, Lechuga, Tomate, Jamón y Queso tybo $900</li> 
+                  <li>LOMITO FUGAZZETA: Lomito, Cebolla caramelizada, Provoleta, Parmesano Gratinado, morrón y lactonesa $950</li> 
+                  <li>LOMITO DON ELVIS: Lomito grillado, cheddar, bacon, dos huevos fritos y barbacoa $990</li> <br>
+                  <strong><ul>Sandwich de Bondiola (con fritas)</ul></strong>      
+                  <li>FRANK SINATRA: Bondiola grillada, Provoleta, Morrón, Cebolla caramelizada $950</li> 
+                  <li>RITCHIE VALENS: Bondiola grillada, Cebolla caramelizada, huevo frito $850</li> 
+                  <li>RIOJANA: Bondiola grillada, huevo frito, salteado de arvejas, bacon,morrones asados $850</li> 
+              </div>
+            </div>
+          </div>
+      </div>
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h3 class="card-title">Cafetería y postres</h3>
+              <img src="img/cafeteria.png" class="card-img-top img-fluid" alt="postres">
+              <p class="card-text">Postres ricos y clásicos, cafetería y panificados. <br> Hay Promos!</p>
+              <a  class="btn btn-primary callToAct" onclick="postre()" id="postre">Quiero!</a>
+        </div>
+          <div class="container-fluid text-center">
+            <div class="row">
+              <div id="listadoPostre"style="display: none;">
+                  <strong><ul>Postres</ul></strong>             
+                  <li>FLAN $300</li> 
+                  <li>FLAN CON CREMA Y DULCE DE LECHE $390</li> 
+
+                  <li> CRUMBLE DE MANZANA CON HELADO O CREMA $500</li> 
+
+                  <li> BROWNIE CON HELADO $550</li> 
+
+                  <li> PANQUEQUES con DULCE de LECHE ( PARA COMPARTIR) $550</li> 
+
+                  <li> ENSALADA DE FRUTAS $350</li> 
+
+                  <li> ENSALADA DE FRUTAS CON BOCHA DE HELADO $450</li> 
+
+                  <li>HELADO 2 BOCHAS (frutilla, americana, ddl, choco) $450</li> <br>
+                     <strong><ul> Cafetería</ul></strong>                  
+                     <li> Americano $250</li>
+                     <li>Lagrima $250</li>
+                     <li> Americano con crema $280</li>
+                     <li>Café con Leche $290</li>
+                     <li>Café doble $300</li>
+                     <li>Café doble con crema $320</li>
+
+                     <li> Te $180
+                      (agregado de leche) $60</li>
+                      <li>Capuccino $320</li>
+                      <li>Capuccino italiano $350</li>
+                      <li>Chocolatada $230</li>
+                      <li>Submarino $270</li>
+
+                      <li>Frappe Cindy (café helado c/cre ma) $450</li>
+                      <li>Exprimido de Naranja $300</li>
+                      <li>Milkshake clasico. $420</li>
+                      <li>Milkshake Oreo/ Banana split $500</li>
+                      <li>Licuado al agua(hasta 2 sabores) $330</li>
+                      <li>Licuado con leche (hasta 2 sabores) $380</li>
+                      <li>Licuado de maracuyá $400</li>
+                      <li>Desayuno Saludable: Vaso de yogurt, granola y frutas, exprimido de
+
+                      naranja, tostadas,
+
+                      queso crema, mermelada + infusión a elección $900</li><br>
+                      <strong><ul>Promos Cafeteria</ul></strong>  
+
+                         <li>Promo 1:
+                            Café con Leche
+                            3 Medialunas
+                            1/2 Exprimido
+                            Soda
+                            $500</li>
+
+                          <li>Promo 2:
+                            Café con Leche
+                            Tostadas Mermeladas y Queso blanco 1/2 Exprimido
+                            Soda
+                            $500</li>
+
+                           <li>Promo 3:
+                            Café con Leche
+                            Tostado mixto
+                            1/2 Exprimido
+                            Soda
+                            $600</li>
+
+                           <li>Promo 4:
+                            Café con Leche
+                            Donas
+                            1/2 Exprimido
+                            Soda
+                            $430</li>
+                            <br>
+                       <strong><ul>Panificados/pastelería</ul></strong>
+                      <li>Tostado pan de miga de jamón y queso $350</li>  
+                      <li>Tostado chiabata de jamón y queso $400</li>  
+                      <li>Tostado chiabata de jamón crudo y queso $450</li>  
+                      <li>Waffle Don Elvis $500</li>  
+                      <li>Waffle solo. 380</li>  
+                      <li>Medialunas por unidad $90</li>  
+                      <li>Medialunas con jamón y queso $250</li>  
+                      <li>Donuts Glaseadas $150</li>  
+                      <li>Crumble de manzana $350</li>  
+                      <li>Brownie $350</li>  
+                      <li>Cheesecake $500</li>  <br>
+                      <strong><ul>BRUNCH ( Para dos personas) $1800</ul></strong>           
+                       <li>2 Infusiones Huevo revuelto con bacon</li>  
+                       <li>2 Jugos de naranja Queso crema y mermelada</li>  
+                       <li>2 Ensalada de frutas 4 Tostadas de campo</li>  
+                       <li>2 Medialunas de manteca Tostados de jamón y queso</li>  
+                       <li>4 Chips de j.crudo, queso y tomates secos</li>  
+              </div>
+            </div>
+          </div>
+    </div> 
+    </div>
+    </div></div>
+</div><!--este es el div del final del fondo!-->
+<footer class="container-fluid cen">
+  <div class="row espacios">
+      <div class="col-md-4 text-center"><h4>Seguinos!</h4>
+        <a href="https://www.instagram.com/donelvisdiner/?hl=es-la" target="_blank" ><img class="logoF" src="img/instagram (1).png" alt=""></a>
+        <a href="https://www.facebook.com/donelvisdiner" target="_blank" ><img class="logoF" src="img/facebook (1).png" alt="facebook"></a>
+        <a href="https://www.pedidosya.com.ar/restaurantes/moron/don-elvis-diner-menu?search=don%20elvis" target="_blank"><img class="logoF" src="img/pedidos.svg" alt=""></a>
+    </div>
+      <div class="col-md-4 text-center"><h4> Donde estamos:</h4>
+        <p>San Nicolás 869, B1713 <strong>Castelar</strong>, Provincia de Buenos Aires</p> 
+     </div>
+      <div class="col-md-4"><p id="chancho">Web realizada por <a target="_blank" href="https://www.linkedin.com/in/agustin-tedesco-245589182/">Agustín Tedesco</a> en 2022</p></div>
+  </div>
+</footer>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>-->
+</body>
+</html>
